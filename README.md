@@ -9,3 +9,4 @@ The website will consist of a main index/home page which will have links to a fe
 The learning objectives of this project are:
 
 - Grasping the foundation of building a website
+- Writting a basic website structure using HTML
