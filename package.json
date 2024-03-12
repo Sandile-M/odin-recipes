@@ -4,7 +4,7 @@
   "description": "Project: Recipes",
   "main": "index.js",
   "scripts": {
-    "dev": "tailwindcss build src/output.css -o public/output.css"
+    "dev": "tailwindcss build -i src/output.css -o public/output.css --watch"
   },
   "keywords": [],
   "author": "",
