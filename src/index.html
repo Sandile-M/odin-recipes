@@ -1,29 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Odin Recipes </title>
-        <link rel="stylesheet" href="/public/output.css">
-    </head>
-    <body>
-        <header>
-            <h1 class="bg-orange-300"> Odin Recipes </h1>
-        </header>
-        <section><!-- content wrapper-->
-            <ol>
-                <li><strong> Slow Braised Lamb Shanks </strong>
-                    <a href="/recipes/Slow_braised_lamb_shanks.html"> Click Here </a>
-                </li>
-                <li><strong> Pulled Pork Loaded Fries </strong>
-                    <a href="/recipes/Pulled_pork_loaded_fries.html"> Click Here </a>
-                </li>
-                <li><strong> White Chocolate Pistachio Affogato </strong>
-                    <a href="/recipes/White_Chocolate_Pistachio_Affogato.html"> Click Here </a>
-                </li>
-            </ol>
-        </section>
-        <footer>Footer</footer>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Odin Recipes </title>
+    <link rel="stylesheet" href="/public/output.css">
+</head>
+<body class="text-green-600">
+
+    <div><!-- My Content Warpper -->
+        <div><!-- Container For NavBar -->
+            <nav>
+                <div>
+                    <h1>
+                        <a href="/">Odin Recipes</a>
+                    </h1>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div> <!--End Of Container For NavBar And Content-->
             
-    </body>
+        <main><!-- Main Content Area -->
+            <div>
+                <a href="#">Log In</a>
+                <a href="#">Sign Up</a>
+            </div>
+    
+            <header>
+                <h2>Recipes</h2>
+                <h3>For Foodies!</h3>
+            </header>
+    
+            <div>
+                <h4>Latest Recipes</h4>
+                
+                <div>
+                    <!--cards go here-->
+                    <div>
+                        <img src="../images/slow-braised-lamb-shanks-2.jpg" alt="lamb-shanks"/>
+                        <div>
+                            <span><strong> Slow Braised Lamb Shanks </strong></span>
+                            <span> Recipe By </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <h4>Most Popular</h4>
+    
+                <div>
+                    <!--cards go here-->
+                </div>
+                
+                <div>
+                    <div>Load More</div>
+                </div>
+            </div>
+    
+        </main>
+    </div>            
+</body>
 </html>
